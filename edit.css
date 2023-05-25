@@ -76,10 +76,6 @@
     top: 122px;
 }
 
-.ds4 .touchpad.pressed {
-    background: url(ps4-assets/touchpad.svg) no-repeat center;
-}
-
 .ds4 .meta {
     width: 42px;
     height: 42px;
