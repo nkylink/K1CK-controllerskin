@@ -41,7 +41,7 @@
 .ds4 .bumper {
     width: 99px;
     height: 23px;
-    background: url(ps4-assets/bumper.svg) no-repeat;
+    background: url(bumper.svg) no-repeat;
     opacity: 0;
 }
 
