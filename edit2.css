@@ -1,4 +1,12 @@
 /*BEGIN PS4 Controller Styling*/
+.controller.ds4 {
+    background: url(base.png);
+    height: 598px;
+    width: 806px;
+    /*    margin-left: -403px;
+        margin-top: -280px;*/
+}
+
 .ds4.disconnected {
     background: url(disconnected.png);
 }
@@ -28,6 +36,13 @@
 .ds4 .trigger.right {
     float: right;
     background-position-x: 99px;
+}
+
+.ds4 .bumper {
+    width: 99px;
+    height: 23px;
+    background: url(bumper.svg) no-repeat;
+    opacity: 0;
 }
 
 .ds4 .bumpers {
@@ -61,20 +76,12 @@
     top: 122px;
 }
 
-.ds4 .touchpad.pressed {
-    background: url(ps4-assets/touchpad.svg) no-repeat center;
-}
-
 .ds4 .meta {
     width: 42px;
     height: 42px;
     position: absolute;
     left: 382px;
     bottom: 216px;
-}
-
-.ds4 .meta.pressed {
-    background: url(ps4-assets/meta.svg) no-repeat center;
 }
 
 /*Not needed, but I like keeping them here for posterity*/
@@ -178,6 +185,13 @@ background-position: 0 -70px;
     height: 105px;
     top: 308px;
     left: 228px;
+}
+
+.ds4 .stick {
+    position: absolute;
+    background: url(sticks.png);
+    height: 94px;
+    width: 94px;
 }
 
 .ds4 .stick.pressed.left {
