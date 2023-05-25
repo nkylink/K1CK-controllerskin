@@ -76,12 +76,20 @@
     top: 122px;
 }
 
+.ds4 .touchpad.pressed {
+    background: url(ps4-assets/touchpad.svg) no-repeat center;
+}
+
 .ds4 .meta {
     width: 42px;
     height: 42px;
     position: absolute;
     left: 382px;
     bottom: 216px;
+}
+
+.ds4 .meta.pressed {
+    background: url(ps4-assets/meta.svg) no-repeat center;
 }
 
 /*Not needed, but I like keeping them here for posterity*/
@@ -143,13 +151,6 @@ background-position: 0 -70px;
     height: 171px;
     top: 159px;
     left: 567px;
-}
-
-.ds4 .button {
-    position: absolute;
-    width: 55px;
-    height: 55px;
-    background: url(face.png);
 }
 
 .ds4 .button.pressed {
